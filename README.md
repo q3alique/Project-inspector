@@ -12,8 +12,9 @@ A Python utility to prepare and segment codebases into structured `.txt` files o
   - Logical continuity
   - Cross-references
   - Mini TOC
+- Warns when a file exceeds the safe token limit for direct copy-paste into ChatGPT prompts, helping users decide whether to paste manually or upload as a `.txt` file instead.
 - Optimized output for ChatGPT context tracking and navigation.
-- Supports `--output`, `--max-size` and `--exclude`.
+- Supports `--output`, `--include` and `--exclude`.
 
 ---
 
